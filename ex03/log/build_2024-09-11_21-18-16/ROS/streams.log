@@ -1,0 +1,34 @@
+[0.469s] Invoking command in '/home/user/robotics/ex03/ROS': PYTHONPATH=/home/user/robotics/ex03/build/ROS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROS build --build-base /home/user/robotics/ex03/build/ROS/build install --record /home/user/robotics/ex03/build/ROS/install.log --single-version-externally-managed install_data
+[0.614s] running egg_info
+[0.614s] creating ../build/ROS/ROS.egg-info
+[0.615s] writing ../build/ROS/ROS.egg-info/PKG-INFO
+[0.615s] writing dependency_links to ../build/ROS/ROS.egg-info/dependency_links.txt
+[0.615s] writing entry points to ../build/ROS/ROS.egg-info/entry_points.txt
+[0.615s] writing requirements to ../build/ROS/ROS.egg-info/requires.txt
+[0.616s] writing top-level names to ../build/ROS/ROS.egg-info/top_level.txt
+[0.616s] writing manifest file '../build/ROS/ROS.egg-info/SOURCES.txt'
+[0.617s] reading manifest file '../build/ROS/ROS.egg-info/SOURCES.txt'
+[0.617s] adding license file 'LICENSE'
+[0.617s] writing manifest file '../build/ROS/ROS.egg-info/SOURCES.txt'
+[0.617s] running build
+[0.617s] running build_py
+[0.618s] creating /home/user/robotics/ex03/build/ROS/build
+[0.618s] creating /home/user/robotics/ex03/build/ROS/build/lib
+[0.619s] creating /home/user/robotics/ex03/build/ROS/build/lib/ROS
+[0.619s] copying ROS/__init__.py -> /home/user/robotics/ex03/build/ROS/build/lib/ROS
+[0.619s] running install
+[0.619s] running install_lib
+[0.620s] creating /home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages/ROS
+[0.620s] copying /home/user/robotics/ex03/build/ROS/build/lib/ROS/__init__.py -> /home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages/ROS
+[0.621s] byte-compiling /home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages/ROS/__init__.py to __init__.cpython-310.pyc
+[0.622s] running install_data
+[0.622s] creating /home/user/robotics/ex03/install/ROS/share/ament_index
+[0.622s] creating /home/user/robotics/ex03/install/ROS/share/ament_index/resource_index
+[0.623s] creating /home/user/robotics/ex03/install/ROS/share/ament_index/resource_index/packages
+[0.623s] copying resource/ROS -> /home/user/robotics/ex03/install/ROS/share/ament_index/resource_index/packages
+[0.623s] copying package.xml -> /home/user/robotics/ex03/install/ROS/share/ROS
+[0.624s] running install_egg_info
+[0.625s] Copying ../build/ROS/ROS.egg-info to /home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages/ROS-0.0.0-py3.10.egg-info
+[0.629s] running install_scripts
+[0.641s] writing list of installed files to '/home/user/robotics/ex03/build/ROS/install.log'
+[0.656s] Invoked command in '/home/user/robotics/ex03/ROS' returned '0': PYTHONPATH=/home/user/robotics/ex03/build/ROS/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/robotics/ex03/install/ROS/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ROS build --build-base /home/user/robotics/ex03/build/ROS/build install --record /home/user/robotics/ex03/build/ROS/install.log --single-version-externally-managed install_data

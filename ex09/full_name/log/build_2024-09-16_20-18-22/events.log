@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (full_name) JobQueued: {'identifier': 'full_name', 'dependencies': OrderedDict()}
+[0.000414] (full_name) JobStarted: {'identifier': 'full_name'}
+[0.013680] (full_name) JobProgress: {'identifier': 'full_name', 'progress': 'cmake'}
+[0.015718] (full_name) JobProgress: {'identifier': 'full_name', 'progress': 'build'}
+[0.016337] (full_name) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/robotics/ex09/full_name/build/full_name', '--', '-j12', '-l12'], 'cwd': '/home/user/robotics/ex09/full_name/build/full_name', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/robotics/ex09'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-dc542847-fd8c-4439-ad76-c28e19eacfaa.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'DESKTOP-ESM0UAN'), ('WSL_INTEROP', '/run/WSL/19246_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/root/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/minikube:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/root/bin:/mnt/c/Users/root/scoop/shims:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/root/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/root/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/root/go/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c056e66b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/robotics/ex09/full_name/build/full_name'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099729] (-) TimerEvent: {}
+[0.168560] (full_name) StdoutLine: {'line': b'[  2%] Built target full_name__cpp\n'}
+[0.169268] (full_name) StdoutLine: {'line': b'[ 11%] Built target full_name__rosidl_generator_c\n'}
+[0.191637] (full_name) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_full_name\n'}
+[0.192593] (full_name) StdoutLine: {'line': b'[ 20%] Built target full_name__rosidl_typesupport_cpp\n'}
+[0.193724] (full_name) StdoutLine: {'line': b'[ 30%] Built target full_name__rosidl_typesupport_introspection_c\n'}
+[0.194664] (full_name) StdoutLine: {'line': b'[ 39%] Built target full_name__rosidl_typesupport_c\n'}
+[0.195089] (full_name) StdoutLine: {'line': b'[ 48%] Built target full_name__rosidl_typesupport_fastrtps_cpp\n'}
+[0.196216] (full_name) StdoutLine: {'line': b'[ 58%] Built target full_name__rosidl_typesupport_introspection_cpp\n'}
+[0.196974] (full_name) StdoutLine: {'line': b'[ 67%] Built target full_name__rosidl_typesupport_fastrtps_c\n'}
+[0.199815] (-) TimerEvent: {}
+[0.211491] (full_name) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/client/full_name_client.cpp.o\x1b[0m\n'}
+[0.211681] (full_name) StdoutLine: {'line': b'[ 72%] Built target full_name\n'}
+[0.211746] (full_name) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/server/full_name_server.cpp.o\x1b[0m\n'}
+[0.232495] (full_name) StdoutLine: {'line': b'[ 74%] Built target full_name__py\n'}
+[0.260065] (full_name) StdoutLine: {'line': b'[ 81%] Built target full_name__rosidl_generator_py\n'}
+[0.284530] (full_name) StdoutLine: {'line': b'[ 95%] Built target full_name__rosidl_typesupport_introspection_c__pyext\n'}
+[0.284688] (full_name) StdoutLine: {'line': b'[ 95%] Built target full_name__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.284749] (full_name) StdoutLine: {'line': b'[ 95%] Built target full_name__rosidl_typesupport_c__pyext\n'}
+[0.299902] (-) TimerEvent: {}
+[0.351930] (full_name) StdoutLine: {'line': b'running egg_info\n'}
+[0.352417] (full_name) StdoutLine: {'line': b'writing full_name.egg-info/PKG-INFO\n'}
+[0.352611] (full_name) StdoutLine: {'line': b'writing dependency_links to full_name.egg-info/dependency_links.txt\n'}
+[0.352766] (full_name) StdoutLine: {'line': b'writing top-level names to full_name.egg-info/top_level.txt\n'}
+[0.361541] (full_name) StdoutLine: {'line': b"reading manifest file 'full_name.egg-info/SOURCES.txt'\n"}
+[0.362432] (full_name) StdoutLine: {'line': b"writing manifest file 'full_name.egg-info/SOURCES.txt'\n"}
+[0.381288] (full_name) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_full_name_egg\n'}
+[0.400007] (-) TimerEvent: {}
+[0.500316] (-) TimerEvent: {}
+[0.600644] (-) TimerEvent: {}
+[0.700959] (-) TimerEvent: {}
+[0.801321] (-) TimerEvent: {}
+[0.901649] (-) TimerEvent: {}
+[1.002001] (-) TimerEvent: {}
+[1.102360] (-) TimerEvent: {}
+[1.202716] (-) TimerEvent: {}
+[1.303050] (-) TimerEvent: {}
+[1.403382] (-) TimerEvent: {}
+[1.503770] (-) TimerEvent: {}
+[1.604127] (-) TimerEvent: {}
+[1.704473] (-) TimerEvent: {}
+[1.804848] (-) TimerEvent: {}
+[1.905450] (-) TimerEvent: {}
+[2.005861] (-) TimerEvent: {}
+[2.106319] (-) TimerEvent: {}
+[2.206724] (-) TimerEvent: {}
+[2.307133] (-) TimerEvent: {}
+[2.407503] (-) TimerEvent: {}
+[2.421580] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.421794] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:19:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.421849] (full_name) StderrLine: {'line': b'   19 |   auto client = node->create_client<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService>("full_name_service");\n'}
+[2.421899] (full_name) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.421944] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:19:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.421988] (full_name) StderrLine: {'line': b'   19 |   auto client = node->\x1b[01;31m\x1b[Kcreate_client<my_fullname_pkg::srv::FullNameSumService>\x1b[m\x1b[K("full_name_service");\n'}
+[2.422030] (full_name) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.422071] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:19:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_client<<expression error> >(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.422113] (full_name) StderrLine: {'line': b'   19 |   auto client = \x1b[01;31m\x1b[Knode->create_client<my_fullname_pkg::srv::FullNameSumService>("full_name_service")\x1b[m\x1b[K;\n'}
+[2.422154] (full_name) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.422506] (full_name) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.422622] (full_name) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.422729] (full_name) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.422834] (full_name) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.422938] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.423044] (full_name) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.423148] (full_name) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.423276] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.423323] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:19:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.423364] (full_name) StderrLine: {'line': b'   19 |   auto client = \x1b[01;31m\x1b[Knode->create_client<my_fullname_pkg::srv::FullNameSumService>("full_name_service")\x1b[m\x1b[K;\n'}
+[2.423404] (full_name) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.423447] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:21:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.423492] (full_name) StderrLine: {'line': b'   21 |   auto request = std::\x1b[01;31m\x1b[Kmake_shared<my_fullname_pkg::srv::FullNameSumService::Request>\x1b[m\x1b[K();\n'}
+[2.423532] (full_name) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.423571] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:21:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<my_fullname_pkg>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.423611] (full_name) StderrLine: {'line': b'   21 |   auto request = \x1b[01;31m\x1b[Kstd::make_shared<my_fullname_pkg::srv::FullNameSumService::Request>()\x1b[m\x1b[K;\n'}
+[2.423651] (full_name) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.423692] (full_name) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[2.423732] (full_name) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.423772] (full_name) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.423811] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.423850] (full_name) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.423888] (full_name) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.423925] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.426227] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.426308] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService::Request> request,\n'}
+[2.426365] (full_name) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.426416] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.426466] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.426522] (full_name) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.429700] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.429802] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService::Request> request,\n'}
+[2.429857] (full_name) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429903] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.429948] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.429990] (full_name) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.432937] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.433052] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService::Request> request,\n'}
+[2.433113] (full_name) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.433168] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.433229] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.433281] (full_name) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.433331] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.433380] (full_name) StderrLine: {'line': b'    6 |   const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Request> request,\n'}
+[2.433420] (full_name) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.436122] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.436252] (full_name) StderrLine: {'line': b'    6 |   const std::shared_ptr<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService::Request> request,\n'}
+[2.436326] (full_name) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.436384] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:5:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Khandle_full_name_request\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[2.436452] (full_name) StderrLine: {'line': b'    5 | void \x1b[01;31m\x1b[Khandle_full_name_request\x1b[m\x1b[K(\n'}
+[2.436519] (full_name) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.436590] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:6:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.436673] (full_name) StderrLine: {'line': b'    6 |   \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Request> request,\n'}
+[2.436746] (full_name) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.439114] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:7:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.439206] (full_name) StderrLine: {'line': b'    7 |   std::shared_ptr<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService::Response> response)\n'}
+[2.439256] (full_name) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.439299] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:7:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.439342] (full_name) StderrLine: {'line': b'    7 |   std::shared_ptr<my_fullname_pkg::srv::FullNameSumService::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[2.439382] (full_name) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.442389] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.442488] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:19:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.442549] (full_name) StderrLine: {'line': b'   19 |   auto service = node->create_service<\x1b[01;31m\x1b[Kmy_fullname_pkg\x1b[m\x1b[K::srv::FullNameSumService>("full_name_service", handle_full_name_request);\n'}
+[2.442601] (full_name) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.442653] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:19:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.442706] (full_name) StderrLine: {'line': b'   19 |   auto service = node->\x1b[01;31m\x1b[Kcreate_service<my_fullname_pkg::srv::FullNameSumService>\x1b[m\x1b[K("full_name_service", handle_full_name_request);\n'}
+[2.442759] (full_name) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.446298] (full_name) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:19:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_full_name_request\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.446413] (full_name) StderrLine: {'line': b'   19 |   auto service = node->create_service<my_fullname_pkg::srv::FullNameSumService>("full_name_service", \x1b[01;31m\x1b[Khandle_full_name_request\x1b[m\x1b[K);\n'}
+[2.446479] (full_name) StderrLine: {'line': b'      |                                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.507636] (-) TimerEvent: {}
+[2.607982] (-) TimerEvent: {}
+[2.708324] (-) TimerEvent: {}
+[2.746590] (full_name) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/client/full_name_client.cpp.o] Error 1\n'}
+[2.746907] (full_name) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.746990] (full_name) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.755563] (full_name) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/server/full_name_server.cpp.o] Error 1\n'}
+[2.755723] (full_name) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/listener.dir/all] Error 2\n'}
+[2.755961] (full_name) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.757916] (full_name) CommandEnded: {'returncode': 2}
+[2.808424] (-) TimerEvent: {}
+[2.837379] (full_name) JobEnded: {'identifier': 'full_name', 'rc': 2}
+[2.847937] (-) EventReactorShutdown: {}

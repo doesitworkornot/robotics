@@ -1,0 +1,335 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (full_name) JobQueued: {'identifier': 'full_name', 'dependencies': OrderedDict()}
+[0.000573] (full_name) JobStarted: {'identifier': 'full_name'}
+[0.006051] (full_name) JobProgress: {'identifier': 'full_name', 'progress': 'cmake'}
+[0.006210] (full_name) Command: {'cmd': ['/usr/bin/cmake', '/home/user/robotics/ex09/full_name', '-DCMAKE_INSTALL_PREFIX=/home/user/robotics/ex09/full_name/install/full_name'], 'cwd': '/home/user/robotics/ex09/full_name/build/full_name', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/robotics/ex09'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-51550a22-7aba-4e8c-a52e-28e89af21987.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'DESKTOP-ESM0UAN'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/root/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/minikube:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/root/bin:/mnt/c/Users/root/scoop/shims:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/root/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/root/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/root/go/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c056e66b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/robotics/ex09/full_name/build/full_name'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099733] (-) TimerEvent: {}
+[0.200036] (-) TimerEvent: {}
+[0.263715] (full_name) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300117] (-) TimerEvent: {}
+[0.400374] (-) TimerEvent: {}
+[0.500671] (-) TimerEvent: {}
+[0.600984] (-) TimerEvent: {}
+[0.692191] (full_name) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.701067] (-) TimerEvent: {}
+[0.801331] (-) TimerEvent: {}
+[0.901636] (-) TimerEvent: {}
+[0.904388] (full_name) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001755] (-) TimerEvent: {}
+[1.016231] (full_name) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.021206] (full_name) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.021913] (full_name) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.022794] (full_name) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.025329] (full_name) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101869] (-) TimerEvent: {}
+[1.128922] (full_name) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.134054] (full_name) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.134289] (full_name) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.134612] (full_name) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.148776] (full_name) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.201958] (-) TimerEvent: {}
+[1.245662] (full_name) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.302077] (-) TimerEvent: {}
+[1.306230] (full_name) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.370897] (full_name) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.402160] (-) TimerEvent: {}
+[1.480612] (full_name) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.485155] (full_name) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.490784] (full_name) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.501743] (full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502234] (-) TimerEvent: {}
+[1.515548] (full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.553319] (full_name) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.602345] (-) TimerEvent: {}
+[1.691821] (full_name) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.702427] (-) TimerEvent: {}
+[1.802676] (-) TimerEvent: {}
+[1.902973] (-) TimerEvent: {}
+[1.907694] (full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.986901] (full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003054] (-) TimerEvent: {}
+[2.074734] (full_name) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.079079] (full_name) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.103154] (-) TimerEvent: {}
+[2.203430] (-) TimerEvent: {}
+[2.303754] (-) TimerEvent: {}
+[2.341825] (full_name) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.342000] (full_name) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.342058] (full_name) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.342107] (full_name) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.355634] (full_name) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.403847] (-) TimerEvent: {}
+[2.419330] (full_name) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.419852] (full_name) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_generator_c>;$<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/user/robotics/ex09/full_name/build/full_name/rosidl_typesupport_introspection_cpp>;/home/user/robotics/ex09/full_name/build/full_name/rosidl_generator_c;/home/user/robotics/ex09/full_name/build/full_name/rosidl_generator_py\n'}
+[2.419976] (full_name) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.422075] (full_name) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.425014] (full_name) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.427107] (full_name) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.434239] (full_name) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.434348] (full_name) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.436890] (full_name) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.455312] (full_name) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.503943] (-) TimerEvent: {}
+[2.513276] (full_name) StdoutLine: {'line': b'-- Generating done\n'}
+[2.515382] (full_name) StdoutLine: {'line': b'-- Build files have been written to: /home/user/robotics/ex09/full_name/build/full_name\n'}
+[2.523356] (full_name) CommandEnded: {'returncode': 0}
+[2.523895] (full_name) JobProgress: {'identifier': 'full_name', 'progress': 'build'}
+[2.524876] (full_name) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/robotics/ex09/full_name/build/full_name', '--', '-j12', '-l12'], 'cwd': '/home/user/robotics/ex09/full_name/build/full_name', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/robotics/ex09'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-51550a22-7aba-4e8c-a52e-28e89af21987.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'DESKTOP-ESM0UAN'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/root/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/minikube:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/root/bin:/mnt/c/Users/root/scoop/shims:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/root/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/root/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/root/go/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c056e66b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/robotics/ex09/full_name/build/full_name'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[2.549919] (full_name) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.555508] (full_name) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.560222] (full_name) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_full_name\n'}
+[2.604073] (-) TimerEvent: {}
+[2.704355] (-) TimerEvent: {}
+[2.725735] (full_name) StdoutLine: {'line': b'running egg_info\n'}
+[2.726245] (full_name) StdoutLine: {'line': b'creating full_name.egg-info\n'}
+[2.726525] (full_name) StdoutLine: {'line': b'writing full_name.egg-info/PKG-INFO\n'}
+[2.726682] (full_name) StdoutLine: {'line': b'writing dependency_links to full_name.egg-info/dependency_links.txt\n'}
+[2.726789] (full_name) StdoutLine: {'line': b'writing top-level names to full_name.egg-info/top_level.txt\n'}
+[2.726948] (full_name) StdoutLine: {'line': b"writing manifest file 'full_name.egg-info/SOURCES.txt'\n"}
+[2.729829] (full_name) StdoutLine: {'line': b"reading manifest file 'full_name.egg-info/SOURCES.txt'\n"}
+[2.730160] (full_name) StdoutLine: {'line': b"writing manifest file 'full_name.egg-info/SOURCES.txt'\n"}
+[2.749109] (full_name) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_full_name_egg\n'}
+[2.781778] (full_name) StdoutLine: {'line': b'[  5%] Built target full_name__cpp\n'}
+[2.789434] (full_name) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.790302] (full_name) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.791626] (full_name) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.801528] (full_name) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_generator_c.dir/rosidl_generator_c/full_name/srv/detail/full_name_sum_service__functions.c.o\x1b[0m\n'}
+[2.801953] (full_name) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_generator_c.dir/rosidl_generator_c/full_name/msg/detail/full_name_message__functions.c.o\x1b[0m\n'}
+[2.804449] (-) TimerEvent: {}
+[2.894022] (full_name) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfull_name__rosidl_generator_c.so\x1b[0m\n'}
+[2.904540] (-) TimerEvent: {}
+[2.956444] (full_name) StdoutLine: {'line': b'[ 20%] Built target full_name__rosidl_generator_c\n'}
+[2.963160] (full_name) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.963682] (full_name) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.963876] (full_name) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.980934] (full_name) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[2.981230] (full_name) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.993718] (full_name) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name/srv/detail/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[2.994731] (full_name) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name/msg/detail/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[3.004683] (-) TimerEvent: {}
+[3.010850] (full_name) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name/msg/detail/dds_fastrtps/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[3.011845] (full_name) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name/srv/detail/dds_fastrtps/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[3.104792] (-) TimerEvent: {}
+[3.202049] (full_name) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name/msg/full_name_message__type_support.cpp.o\x1b[0m\n'}
+[3.202487] (full_name) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name/srv/full_name_sum_service__type_support.cpp.o\x1b[0m\n'}
+[3.204896] (-) TimerEvent: {}
+[3.232955] (full_name) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name/srv/detail/full_name_sum_service__type_support_c.cpp.o\x1b[0m\n'}
+[3.233233] (full_name) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/full_name__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name/msg/detail/full_name_message__type_support_c.cpp.o\x1b[0m\n'}
+[3.236811] (full_name) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.242679] (full_name) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name/msg/detail/full_name_message__type_support.c.o\x1b[0m\n'}
+[3.242939] (full_name) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name/srv/detail/full_name_sum_service__type_support.c.o\x1b[0m\n'}
+[3.278027] (full_name) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libfull_name__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.305050] (-) TimerEvent: {}
+[3.318768] (full_name) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.378318] (full_name) StdoutLine: {'line': b'[ 66%] Built target full_name__rosidl_typesupport_c\n'}
+[3.382498] (full_name) StdoutLine: {'line': b'[ 66%] Built target full_name__rosidl_typesupport_introspection_c\n'}
+[3.405198] (-) TimerEvent: {}
+[3.427824] (full_name) StdoutLine: {'line': b'[ 66%] Built target full_name__rosidl_typesupport_cpp\n'}
+[3.436389] (full_name) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.465482] (full_name) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.505315] (-) TimerEvent: {}
+[3.541152] (full_name) StdoutLine: {'line': b'[ 71%] Built target full_name__rosidl_typesupport_introspection_cpp\n'}
+[3.590398] (full_name) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfull_name__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.597479] (full_name) StdoutLine: {'line': b'[ 74%] Built target full_name__rosidl_typesupport_fastrtps_cpp\n'}
+[3.605438] (-) TimerEvent: {}
+[3.684535] (full_name) StdoutLine: {'line': b'[ 74%] Built target full_name__rosidl_typesupport_fastrtps_c\n'}
+[3.695792] (full_name) StdoutLine: {'line': b'[ 74%] Built target full_name\n'}
+[3.705519] (-) TimerEvent: {}
+[3.707441] (full_name) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.805629] (-) TimerEvent: {}
+[3.905972] (-) TimerEvent: {}
+[3.981801] (full_name) StdoutLine: {'line': b'[ 76%] Built target full_name__py\n'}
+[3.993408] (full_name) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_generator_py.dir/rosidl_generator_py/full_name/srv/_full_name_sum_service_s.c.o\x1b[0m\n'}
+[3.993599] (full_name) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_generator_py.dir/rosidl_generator_py/full_name/msg/_full_name_message_s.c.o\x1b[0m\n'}
+[4.006048] (-) TimerEvent: {}
+[4.106301] (-) TimerEvent: {}
+[4.140533] (full_name) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name/libfull_name__rosidl_generator_py.so\x1b[0m\n'}
+[4.206415] (-) TimerEvent: {}
+[4.213945] (full_name) StdoutLine: {'line': b'[ 84%] Built target full_name__rosidl_generator_py\n'}
+[4.226615] (full_name) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name/_full_name_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.226862] (full_name) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name/_full_name_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.226955] (full_name) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/full_name__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name/_full_name_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.291452] (full_name) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name/full_name_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.291672] (full_name) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name/full_name_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.294089] (full_name) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/full_name/full_name_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.306510] (-) TimerEvent: {}
+[4.348772] (full_name) StdoutLine: {'line': b'[100%] Built target full_name__rosidl_typesupport_c__pyext\n'}
+[4.348993] (full_name) StdoutLine: {'line': b'[100%] Built target full_name__rosidl_typesupport_introspection_c__pyext\n'}
+[4.366140] (full_name) StdoutLine: {'line': b'[100%] Built target full_name__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.374365] (full_name) CommandEnded: {'returncode': 0}
+[4.406620] (-) TimerEvent: {}
+[4.428902] (full_name) JobProgress: {'identifier': 'full_name', 'progress': 'install'}
+[4.434902] (full_name) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/robotics/ex09/full_name/build/full_name'], 'cwd': '/home/user/robotics/ex09/full_name/build/full_name', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/robotics/ex09'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-51550a22-7aba-4e8c-a52e-28e89af21987.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'DESKTOP-ESM0UAN'), ('WSL_INTEROP', '/run/WSL/365_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/user/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/root/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/minikube:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/WireGuard/:/mnt/c/Users/root/bin:/mnt/c/Users/root/scoop/shims:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/root/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/root/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Users/root/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/root/go/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c056e66b8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/robotics/ex09/full_name/build/full_name'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[4.440344] (full_name) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.441209] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/ament_index/resource_index/rosidl_interfaces/full_name\n'}
+[4.441380] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.441822] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.441994] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.442124] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.442291] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__type_support.h\n'}
+[4.442401] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__functions.h\n'}
+[4.442543] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__struct.h\n'}
+[4.442682] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__functions.c\n'}
+[4.442837] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/full_name_message.h\n'}
+[4.442963] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.443094] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/full_name_sum_service.h\n'}
+[4.443259] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.443375] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__struct.h\n'}
+[4.443511] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__functions.c\n'}
+[4.443696] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__functions.h\n'}
+[4.443759] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__type_support.h\n'}
+[4.444108] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/library_path.sh\n'}
+[4.444235] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/library_path.dsv\n'}
+[4.444519] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_generator_c.so\n'}
+[4.444829] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_generator_c.so" to ""\n'}
+[4.445001] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.445065] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.445166] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.445252] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__rosidl_typesupport_fastrtps_c.h\n'}
+[4.445362] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.445516] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.445655] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.445707] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_c.h\n'}
+[4.445755] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_fastrtps_c.so\n'}
+[4.445942] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.446004] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.446143] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.446256] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.446368] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__traits.hpp\n'}
+[4.446474] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__struct.hpp\n'}
+[4.446579] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__builder.hpp\n'}
+[4.446769] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/full_name_message.hpp\n'}
+[4.446885] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.447059] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.447158] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__builder.hpp\n'}
+[4.447270] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__traits.hpp\n'}
+[4.447375] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__struct.hpp\n'}
+[4.447530] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/full_name_sum_service.hpp\n'}
+[4.447710] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.447769] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.447816] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.447892] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.448000] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.448106] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/dds_fastrtps\n'}
+[4.448320] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.448436] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.448565] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.448705] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/dds_fastrtps\n'}
+[4.448821] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.448928] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.449035] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.449140] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.449244] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.449349] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__rosidl_typesupport_introspection_c.h\n'}
+[4.449453] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__type_support.c\n'}
+[4.449557] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.449661] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.449915] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.450022] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_c.h\n'}
+[4.450131] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__type_support.c\n'}
+[4.450255] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_introspection_c.so\n'}
+[4.450365] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.450469] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_c.so\n'}
+[4.450574] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_c.so" to ""\n'}
+[4.450678] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name\n'}
+[4.450788] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg\n'}
+[4.450891] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail\n'}
+[4.450994] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__type_support.cpp\n'}
+[4.451097] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/msg/detail/full_name_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.451200] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv\n'}
+[4.451304] (full_name) StdoutLine: {'line': b'-- Up-to-date: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail\n'}
+[4.451406] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.451565] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/include/full_name/full_name/srv/detail/full_name_sum_service__type_support.cpp\n'}
+[4.451748] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_introspection_cpp.so\n'}
+[4.451807] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.451853] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_cpp.so\n'}
+[4.451896] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_typesupport_cpp.so" to ""\n'}
+[4.451938] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/pythonpath.sh\n'}
+[4.451980] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/pythonpath.dsv\n'}
+[4.452031] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name-0.0.0-py3.10.egg-info\n'}
+[4.452120] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.452234] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.452349] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.452452] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.452549] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name\n'}
+[4.452749] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.452878] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/_full_name_s.ep.rosidl_typesupport_c.c\n'}
+[4.453018] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/_full_name_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.453132] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/__init__.py\n'}
+[4.453258] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg\n'}
+[4.453428] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg/_full_name_message_s.c\n'}
+[4.453542] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg/__init__.py\n'}
+[4.453662] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg/_full_name_message.py\n'}
+[4.453771] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.453902] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv\n'}
+[4.454087] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv/_full_name_sum_service_s.c\n'}
+[4.455771] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv/__init__.py\n'}
+[4.458058] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv/_full_name_sum_service.py\n'}
+[4.458201] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.458371] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/_full_name_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.459441] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/libfull_name__rosidl_generator_py.so\n'}
+[4.488598] (full_name) StdoutLine: {'line': b"Listing '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name'...\n"}
+[4.488746] (full_name) StdoutLine: {'line': b"Compiling '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/__init__.py'...\n"}
+[4.488808] (full_name) StdoutLine: {'line': b"Listing '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg'...\n"}
+[4.488862] (full_name) StdoutLine: {'line': b"Compiling '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg/__init__.py'...\n"}
+[4.488908] (full_name) StdoutLine: {'line': b"Compiling '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/msg/_full_name_message.py'...\n"}
+[4.488953] (full_name) StdoutLine: {'line': b"Listing '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv'...\n"}
+[4.488995] (full_name) StdoutLine: {'line': b"Compiling '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv/__init__.py'...\n"}
+[4.489044] (full_name) StdoutLine: {'line': b"Compiling '/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/srv/_full_name_sum_service.py'...\n"}
+[4.491531] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.491841] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.492045] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.492322] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.492484] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.492763] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/local/lib/python3.10/dist-packages/full_name/full_name_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.492937] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_generator_py.so\n'}
+[4.493157] (full_name) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robotics/ex09/full_name/install/full_name/lib/libfull_name__rosidl_generator_py.so" to ""\n'}
+[4.493359] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/msg/FullNameMessage.idl\n'}
+[4.493648] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/srv/FullNameSumService.idl\n'}
+[4.493769] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/msg/FullNameMessage.msg\n'}
+[4.493928] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/srv/FullNameSumService.srv\n'}
+[4.494041] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/srv/FullNameSumService_Request.msg\n'}
+[4.494186] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/srv/FullNameSumService_Response.msg\n'}
+[4.494462] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/ament_index/resource_index/package_run_dependencies/full_name\n'}
+[4.494753] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/ament_index/resource_index/parent_prefix_path/full_name\n'}
+[4.494888] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/ament_prefix_path.sh\n'}
+[4.495024] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/ament_prefix_path.dsv\n'}
+[4.495162] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/path.sh\n'}
+[4.495287] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/environment/path.dsv\n'}
+[4.495417] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/local_setup.bash\n'}
+[4.495542] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/local_setup.sh\n'}
+[4.495688] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/local_setup.zsh\n'}
+[4.495833] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/local_setup.dsv\n'}
+[4.495984] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/package.dsv\n'}
+[4.496259] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/ament_index/resource_index/packages/full_name\n'}
+[4.496547] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_generator_cExport.cmake\n'}
+[4.496680] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.496826] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.496971] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.497123] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_generator_cppExport.cmake\n'}
+[4.497260] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.497393] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.497537] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.497672] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.497833] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_cExport.cmake\n'}
+[4.497977] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.498127] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.498255] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.498403] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_cppExport.cmake\n'}
+[4.498543] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_name__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.498674] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_generator_pyExport.cmake\n'}
+[4.498816] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/export_full_name__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.498955] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/rosidl_cmake-extras.cmake\n'}
+[4.499097] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.499219] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.499363] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.499520] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.499653] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.500041] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.500105] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_nameConfig.cmake\n'}
+[4.500153] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/cmake/full_nameConfig-version.cmake\n'}
+[4.500244] (full_name) StdoutLine: {'line': b'-- Installing: /home/user/robotics/ex09/full_name/install/full_name/share/full_name/package.xml\n'}
+[4.501940] (full_name) CommandEnded: {'returncode': 0}
+[4.506710] (-) TimerEvent: {}
+[4.588346] (full_name) JobEnded: {'identifier': 'full_name', 'rc': 0}
+[4.589213] (-) EventReactorShutdown: {}

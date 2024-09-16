@@ -1,0 +1,40 @@
+[33mCMake Warning at CMakeLists.txt:37 (add_executable):
+  Cannot generate a safe runtime search path for target talker because there
+  is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/home/user/robotics/ex09/full_name/install/full_name/lib]
+      dir 2 must precede it due to runtime library [libfull_name__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/home/user/robotics/ex09/full_name/build/full_name]
+      dir 1 must precede it due to runtime library [libfull_name__rosidl_typesupport_fastrtps_c.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:40 (add_executable):
+  Cannot generate a safe runtime search path for target listener because
+  there is a cycle in the constraint graph:
+
+    dir 0 is [/opt/ros/humble/lib]
+    dir 1 is [/home/user/robotics/ex09/full_name/install/full_name/lib]
+      dir 2 must precede it due to runtime library [libfull_name__rosidl_typesupport_introspection_c.so]
+    dir 2 is [/home/user/robotics/ex09/full_name/build/full_name]
+      dir 1 must precede it due to runtime library [libfull_name__rosidl_typesupport_fastrtps_c.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/user/robotics/ex09/full_name/src/client/full_name_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_fullname_pkg/srv/full_name_sum_service.hpp: No such file or directory
+    2 | #include [01;31m[K"my_fullname_pkg/srv/full_name_sum_service.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/robotics/ex09/full_name/src/server/full_name_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_fullname_pkg/srv/full_name_sum_service.hpp: No such file or directory
+    2 | #include [01;31m[K"my_fullname_pkg/srv/full_name_sum_service.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/server/full_name_server.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/client/full_name_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

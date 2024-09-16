@@ -1,0 +1,4 @@
+Invoking command in '/home/user/robotics/ex09/full_name/build/full_name': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/robotics/ex09/full_name/build/full_name -- -j12 -l12
+Invoked command in '/home/user/robotics/ex09/full_name/build/full_name' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/robotics/ex09/full_name/build/full_name -- -j12 -l12
+Invoking command in '/home/user/robotics/ex09/full_name/build/full_name': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/robotics/ex09/full_name/build/full_name
+Invoked command in '/home/user/robotics/ex09/full_name/build/full_name' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/robotics/ex09/full_name/build/full_name
