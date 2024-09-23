@@ -1,7 +1,0 @@
-{
-  "package_name": "full_name",
-  "non_idl_tuples": [
-    "/home/user/robotics/ex09/full_name:msg/FullNameMessage.msg",
-    "/home/user/robotics/ex09/full_name:srv/FullNameSumService.srv"
-  ]
-}

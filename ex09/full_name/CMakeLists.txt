@@ -30,19 +30,4 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FullNameSumService.srv"
  )
 
-find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(full_name REQUIRED)                      # CHANGE
-
-add_executable(talker src/client/full_name_client.cpp)
-ament_target_dependencies(talker rclcpp full_name)    # CHANGE
-
-add_executable(listener src/server/full_name_server.cpp)
-ament_target_dependencies(listener rclcpp full_name)  # CHANGE
-
-install(TARGETS
-  talker
-  listener
-  DESTINATION lib/${PROJECT_NAME})
-
 ament_package()
