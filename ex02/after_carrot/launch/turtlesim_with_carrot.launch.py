@@ -58,11 +58,11 @@ def generate_launch_description():
             package='after_carrot',
             executable='turtle2_tf2_listener',
             name='listener'
-        ),
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            arguments=['-d', os.path.join(get_package_share_directory('ex02'), 'config', 'carrot.rviz')]
         )
+        # Node(
+        #     package='rviz2',
+        #     executable='rviz2',
+        #     name='rviz2',
+        #     arguments=['-d', os.path.join(get_package_share_directory('ex02'), 'config', 'carrot.rviz')]
+        # )
     ])
